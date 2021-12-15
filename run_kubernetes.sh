@@ -20,4 +20,4 @@ kubectl get pods
 # Forward the container port to a host
 kubectl port-forward pod/ml-test-pod 8000:80
 
-$SHELL
+#$SHELL
