@@ -9,7 +9,7 @@ WORKDIR /app
 COPY . app.py /app/
 
 ## Step 3:
-RUN pip install pip=21.3.1 &&\
+RUN pip install pip==21.3.1 &&\
     pip install --trusted-host pypi.python.org -r requirements.txt 
 
 ## Step 4:
