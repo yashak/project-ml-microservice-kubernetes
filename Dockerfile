@@ -10,7 +10,7 @@ COPY . app.py /app/
 
 ## Step 3:
 RUN pip install --upgrade pip &&\
-    pip install --trusted-host pypi.python.org -r requirements.txt
+    pip install --trusted-host pypi.python.org -r requirements.txt --disable-pip-version-check --user
 
 ## Step 4:
 # Expose port 80
