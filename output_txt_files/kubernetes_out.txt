@@ -1,9 +1,13 @@
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
 Port: 8000
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   260  100    48  100   212    369   1631 --:--:-- --:--:-- --:--:--  2000{
+100   260  100    48  100   212     10     48  0:00:04  0:00:04 --:--:--    59{
   "prediction": [
     20.35373177134412
   ]
 }
-
